@@ -12,7 +12,7 @@
 <body>
 
     <!-- top content -->
-    <div class="container-fluid fixed-on-top p-0 m-0">
+    <div class="container-fluid p-0 m-0">
         <div class="row justify-content-between">
             <div class="col-2 justify-content-center">
                 <img style="height: 70px;" class="mx-auto d-block pt-1" src="./src/img/logo.png">
@@ -25,37 +25,37 @@
                 Redes sociais
             </div>
         </div>
-
-        <!-- navbar -->
-        <nav class="rounded-0 navbar navbar-expand-lg navbar-light bg-wine sticky-top">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
-                <ul class="navbar-nav ">
-                    <li class="nav-item active border-left">
-                        <a class="nav-link text-white" href="/">Home<span class="sr-only"></span></a>
-                    </li>
-                    <li class="nav-item active border-left">
-                        <a class="nav-link text-white" href="/">Sobre mim<span class="sr-only"></span></a>
-                    </li>
-                    <li class="nav-item active border-left">
-                        <a class="nav-link text-white" href="/">Áreas de Atuação<span class="sr-only"></span></a>
-                    </li>
-                    <li class="nav-item active border-left">
-                        <a class="nav-link text-white" href="/">Acessoria/Consultoria Jurídica<span class="sr-only"></span></a>
-                    </li>
-                    <li class="nav-item active border-left">
-                        <a class="nav-link text-white" href="/">Redes Sociais<span class="sr-only"></span></a>
-                    </li>
-                    <li class="nav-item active border-left border-right">
-                        <a class="nav-link text-white" href="/">Contato<span class="sr-only"></span></a>
-                    </li>
-                    
-                </ul>
-            </div>
-        </nav>
     </div>
+
+    <!-- navbar -->
+    <nav class="rounded-0 navbar navbar-expand-lg navbar-light bg-wine sticky-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
+            <ul class="navbar-nav ">
+                <li class="nav-item active border-left">
+                    <a class="nav-link text-white" href="/">Home<span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item active border-left">
+                    <a class="nav-link text-white" href="/">Sobre mim<span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item active border-left">
+                    <a class="nav-link text-white" href="/">Áreas de Atuação<span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item active border-left">
+                    <a class="nav-link text-white" href="/">Acessoria/Consultoria Jurídica<span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item active border-left">
+                    <a class="nav-link text-white" href="/">Redes Sociais<span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item active border-left border-right">
+                    <a class="nav-link text-white" href="/">Contato<span class="sr-only"></span></a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
 
     <!--    
         Home, Escritório, Profissionais, Área de Atuação,   Contato, Localização, Redes Sociais, Área do Cliente
