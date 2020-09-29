@@ -12,46 +12,61 @@
 <body>
 
     <!-- top content -->
-    <div class="container-fluid p-0 m-0">
-        <div class="row justify-content-between">
-            <div class="col-2 justify-content-center">
-                <img style="height: 70px;" class="mx-auto d-block pt-1" src="./src/img/logo.png">
+    <div class="container-fluid p-0 m-0 d-lg-block d-none">
+        <div class="row align-items-center">
+            <div class="col-3 text-center">
+                <img class="mx-auto d-block py-1" src="/src/img/ncl.png">
             </div>
-            <div class="col-8 text-center">
-                <!-- <h1>Naiara Candida de Lima - Advogada</h1> -->
-                <img class="mx-auto d-block py-1" src="/src/img/logo2.png">
+            <div class="col text-center">
+                <img class="mx-auto d-block py-1" src="/src/img/logo4.png">
             </div>
-            <div class="col-2">
-                Redes sociais
+            <div class="col-3">
+                <?php require './src/default/socialMedia.php'; ?>
             </div>
         </div>
     </div>
 
-    <!-- navbar -->
-    <nav class="rounded-0 navbar navbar-expand-lg navbar-light bg-wine sticky-top">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <!-- NAVBAR -->
+    <nav class="rounded-0 navbar navbar-expand-lg navbar-dark bg-wine sticky-top border-bottom" id="navbarid">
+
+        <button class="navbar-toggler my-2" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
-            <ul class="navbar-nav ">
-                <li class="nav-item active border-left">
-                    <a class="nav-link text-white" href="/">Home<span class="sr-only"></span></a>
+        <img src="/src/img/logo.png" class="rounded d-block d-lg-none" style="height: 50px;">
+
+        <div class="col collapse navbar-collapse justify-content-lg-center" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item border-left">
+                    <a class="nav-link text-white" href="#home">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
                 </li>
-                <li class="nav-item active border-left">
-                    <a class="nav-link text-white" href="/">Sobre mim<span class="sr-only"></span></a>
+                <li class="nav-item border-left">
+                    <a class="nav-link text-white" href="#aboutme">Sobre mim
+                        <span class="sr-only"></span>
+                    </a>
                 </li>
-                <li class="nav-item active border-left">
-                    <a class="nav-link text-white" href="/">Áreas de Atuação<span class="sr-only"></span></a>
+                <li class="nav-item border-left">
+                    <a class="nav-link text-white" href="#ocupationarea">Áreas de Atuação
+                        <span class="sr-only"></span>
+                    </a>
                 </li>
-                <li class="nav-item active border-left">
-                    <a class="nav-link text-white" href="/">Acessoria/Consultoria Jurídica<span class="sr-only"></span></a>
+                <li class="nav-item border-left">
+                    <a class="nav-link text-white" href="#accessory">Acessoria/Consultoria Jurídica
+                        <span class="sr-only"></span>
+                    </a>
                 </li>
-                <li class="nav-item active border-left">
-                    <a class="nav-link text-white" href="/">Redes Sociais<span class="sr-only"></span></a>
+                <li class="nav-item border-left">
+                    <a class="nav-link text-white" href="#network">Redes Sociais
+                        <span class="sr-only"></span>
+                    </a>
                 </li>
-                <li class="nav-item active border-left border-right">
-                    <a class="nav-link text-white" href="/">Contato<span class="sr-only"></span></a>
+                <li class="nav-item border-left">
+                    <a class="nav-link text-white" href="#contact">Contato
+                        <span class="sr-only"></span>
+                    </a>
                 </li>
+                <li class="border-left d-lg-block d-none"></li>
 
             </ul>
         </div>

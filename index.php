@@ -1,9 +1,15 @@
 <?php require 'src/default/topPage.php' ?>
 
-<div class="container" id="app">
+<div class="container mb-4" id="app">
 
-   <?php require 'src/default/aboutme.php'; ?>
-   <?php require 'src/default/occupationArea.php'; ?>
+   <?php
+   
+      require 'src/default/aboutme.php';
+      require 'src/default/occupationArea.php';
+
+      require 'src/default/socialMedia.php';
+
+   ?>
 
 </div>
 
