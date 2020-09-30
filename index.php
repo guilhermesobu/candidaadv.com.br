@@ -11,12 +11,14 @@
 
 </div>
 
-<div class="container-fluid bg-wine py-4">
+<div class="container-fluid bg-wine pt-4">
 
    <?php
 
    require 'src/default/contact.php';
    require 'src/default/socialMedia.php';
+
+   require './copyright.php';
 
    ?>
 
