@@ -21,12 +21,6 @@
             </div>
         </div>
 
-        <!-- SLIDER ICONE -->
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-        </ol>
-
         <!-- CONTENT -->
         <div class="carousel-inner">
             <div class="carousel-item active">
