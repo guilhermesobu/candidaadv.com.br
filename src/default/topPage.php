@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="shortcut icon" href="/favicon4.ico" />
     <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css" crossorigin="anonymous">
     <link rel="stylesheet" href="/scss/index.css">
 </head>
@@ -52,7 +52,7 @@
                     </a>
                 </li>
                 <li class="nav-item border-left">
-                    <a class="nav-link text-white" href="#accessory">Acessoria/Consultoria Jurídica
+                    <a class="nav-link text-white" href="#accessory">Assessoria e Consultoria Jurídica
                         <span class="sr-only"></span>
                     </a>
                 </li>
