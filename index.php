@@ -4,6 +4,7 @@
 
    <?php
 
+   require 'src/default/home.php';
    require 'src/default/occupationArea.php';
    require 'src/default/aboutme.php';
 

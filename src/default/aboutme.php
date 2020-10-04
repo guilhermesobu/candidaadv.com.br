@@ -10,7 +10,7 @@
         <h2 class="pl-4">Sobre mim</h2>
 
         <p>Me formei aos 22 anos em 2017 pelo Centro Universitário Salesiano de São Paulo - Unisal.</p>
-        <p>Fui estagiária no Juizado Cível de Americana, famoso "pequenas causas" de 2012 à 2013.</p>
+        <p>Fui estagiária no Juizado Especial Cível de Americana, famoso "pequenas causas" de 2012 à 2013.</p>
         <p>Iniciei o estágio e conhecimento da vida advocatícia no segundo ano da faculdade em 2014 até 2017, em escritório de advocacia na area Previdenciária.</p>
         <p>E hoje continuo trabalhando no escritório Regina Bernardo & Advogados Associados, mantendo a área de atuação em Previdenciário e em Direito de Família e Sucessões.</p>
     </div>
