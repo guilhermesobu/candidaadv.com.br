@@ -1,6 +1,6 @@
 <?php require 'src/default/topPage.php' ?>
 
-<div class="container mb-4">
+<div class="container mb-4 text-justify">
 
    <?php
 

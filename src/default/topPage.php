@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="/scss/index.css">
 </head>
 
-<body>
+<body class="david">
 
     <!-- top content -->
     <div class="container-fluid d-lg-block d-none py-4">
@@ -17,9 +17,20 @@
             <div class="col-3 text-center">
                 <img class="mx-auto d-block py-1" src="/src/img/ncl.png">
             </div>
+
+            <div class="col-fill text-center sansita">
+                <h3 class="nopm font-wine">NAIARA CANDIDA DE LIMA</h3>
+                <p  class="nopm font-gold">A D V O G A D A</p>
+                <h4 class="nopm font-wine">OAB/SP 428.895</h4>
+            </div>
+
+            <!--
             <div class="col text-center">
                 <img class="mx-auto d-block py-1" src="/src/img/logo4.png">
             </div>
+            -->
+
+
             <div class="col-3">
                 <?php require './src/default/socialMedia.php'; ?>
             </div>
@@ -32,37 +43,32 @@
         <button class="navbar-toggler my-2" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <img src="/src/img/logo.png" class="rounded d-block d-lg-none" style="height: 50px;">
+        <img src="/src/img/logo.png" class="rounded rounded-circle border border-white d-block d-lg-none" style="height: 50px;">
 
         <div class="col collapse navbar-collapse justify-content-lg-center" id="navbarNav">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav font-weight-bolder sansita">
                 <li class="nav-item border-left">
-                    <a class="nav-link text-white" href="#home">Home
+                    <a class="nav-link hover text-white" href="#home">Homes
                         <span class="sr-only">(current)</span>
                     </a>
                 </li>
                 <li class="nav-item border-left">
-                    <a class="nav-link text-white" href="#aboutme">Sobre mim
+                    <a class="nav-link hover text-white" href="#ocupationarea">Áreas de Atuação
                         <span class="sr-only"></span>
                     </a>
                 </li>
                 <li class="nav-item border-left">
-                    <a class="nav-link text-white" href="#ocupationarea">Áreas de Atuação
+                    <a class="nav-link hover text-white" href="#accessory">Assessoria e Consultoria Jurídica
                         <span class="sr-only"></span>
                     </a>
                 </li>
                 <li class="nav-item border-left">
-                    <a class="nav-link text-white" href="#accessory">Assessoria e Consultoria Jurídica
+                    <a class="nav-link hover text-white" href="#aboutme">Sobre mim
                         <span class="sr-only"></span>
                     </a>
                 </li>
                 <li class="nav-item border-left">
-                    <a class="nav-link text-white" href="#network">Redes Sociais
-                        <span class="sr-only"></span>
-                    </a>
-                </li>
-                <li class="nav-item border-left">
-                    <a class="nav-link text-white" href="#contact">Contato
+                    <a class="nav-link hover text-white" href="#contact">Contato
                         <span class="sr-only"></span>
                     </a>
                 </li>

@@ -1,18 +1,44 @@
 .font-wine{
     color: #4b0403
 }
+.font-gold{
+    color: #DAA520;
+}
 
 .bg-wine{
     background-color: #4b0403;
+}
+.bg-gold{
+    background-color: #DAA520;
 }
 
 .border-wine{
     border-color: #4b0403;
 }
 
+.hover:hover{
+    border-radius: 10px;
+    justify-content: center;
+    animation: colorchange 0.5s forwards;
+    color: #000000 !important;
+}
+@keyframes colorchange {
+    from {background-color: #4b0403;}
+    to {background-color: #DAA520;}
+  }
+
 p {
     padding-left: 20px;
     padding-right: 20px;
+}
+
+a:link:active{
+    background-color: #DAA520;
+}
+
+.nopm{
+    padding: 0px;
+    margin: 0px;    
 }
 
 .spliters{
@@ -52,4 +78,23 @@ p {
 
 .icon-size{
     width: 15px;
+}
+
+
+
+/*FONT STYLE*/
+@font-face{
+    font-family: "SansitaSwashed";
+    src: url("/src/fonts/sansitaSuashed/static/SansitaSwashed-Medium.ttf") format("truetype");
+}
+.sansita{
+    font-family: "SansitaSwashed" ;
+}
+
+@font-face{
+    font-family: "DavidLibre";
+    src: url("/src/fonts/davidLibre/DavidLibre-Regular.ttf") format("truetype");
+}
+.david{
+    font-family: "DavidLibre";
 }
