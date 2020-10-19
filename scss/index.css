@@ -98,3 +98,17 @@ a:link:active{
 .david{
     font-family: "DavidLibre";
 }
+
+/* HOME IMAGE */
+.bg-home{
+    height: 450px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('/src/img/HomeNaiara.png');
+}
+
+.bg-floral{
+    background-repeat: repeat;
+    background-image: url('/src/img/gray-floral.png');
+}

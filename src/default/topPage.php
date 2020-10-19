@@ -12,7 +12,7 @@
 <body class="david">
 
     <!-- top content -->
-    <div class="container-fluid d-lg-block d-none py-4">
+    <div class="container-fluid d-lg-block d-none py-4 bg-white">
         <div class="row  d-flex justify-content-around align-items-center">
             <div class="col-3 text-center">
                 <img class="mx-auto d-block py-1" src="/src/img/ncl.png">
