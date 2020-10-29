@@ -3,8 +3,8 @@
 
         <div class="col-12 col-lg-6">
             <div class="row py-2">
-                <div class="col-fill p-2 bg-wine border border-white rounded-circle mx-1">
-                    <img style="height: 30px;" src="/src/img/icons/icone-phone.png">
+                <div class="col-fill p-2 mx-1">
+                    <img style="height: 55px;" src="/src/img/icons/Phone-Circle.png">
                 </div>
                 <div class="col">
                     <p class="m-0 p-0">(19) 3626-8981</p>
@@ -13,8 +13,8 @@
             </div>
 
             <div class="row py-2">
-                <div class="col-fill p-2 bg-wine border border-white rounded-circle mx-1">
-                    <img style="height: 30px;" src="/src/img/icons/icone-mail.png">
+                <div class="col-fill p-2 mx-1">
+                    <img style="height: 55px;" src="/src/img/icons/Mail-Circle.png">
                 </div>
                 <div class="col d-flex align-items-center">
                     <p class="m-0 p-0 bold">naiara.candida@adv.oabsp.org.br</p>
@@ -22,8 +22,8 @@
             </div>
 
             <div class="row py-2 d-flex align-items-center">
-                <div class="col-fill p-2 bg-wine border border-white rounded-circle mx-1">
-                    <img class="rounded-circle" style="height: 30px;" src="/src/img/icons/icone-localization.png">
+                <div class="col-fill p-2 mx-1">
+                    <img style="height: 55px;" src="/src/img/icons/Local-Circle.png">
                 </div>
                 <div class="col">
                     <p class="m-0 p-0">Av. São Paulo, 1350 - Cidade Nova II</p>

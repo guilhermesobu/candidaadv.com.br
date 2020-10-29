@@ -47,22 +47,19 @@
 
             <div class="carousel-item active">
                 <div class="row text-white align-items-center justify-content-around">
-                    <div class="col-md-5 col-12">
-                        <p>Trabalho com o Direito Previdenciário, sempre em busca do direito aos segurados e seus dependentes, para a concessão de benefícios, na via extrajudicial e judicial, sejam eles, aposentadorias, pensão por morte, auxílios e salário maternidade.</p>
-                    </div>
-                    <div class="col-md-5 col-12 align-self-center">
-                        <img src="/src/img/previdencia.jpg" class="carousel-banner rounded mx-auto d-block" style="height: 300px;">
+                    <div class="md-col-7 col-10 pt-4">
+                        <p>O direito previdenciário é um ramo do direito público, que está sempre em busca da conquista dos direitos sociais, com o estudo e a regulamentação do instituto seguridade social.</p>
+                        <p>Dentre outras perspectivas, o objetivo do Direito Previdenciário é fiscalizar e controlar a Previdência Social/Instituto Nacional do Seguro Social - INSS, regulamentando a relação e o amparo aos beneficiários, sejam eles dependentes ou segurados, quando se encontram em alguma situação de necessidade social para a concessão de benefícios.</p>
                     </div>
                 </div>
             </div>
 
             <div class="carousel-item">
                 <div class="row text-white align-items-center justify-content-around">
-                    <div class="col-md-5 col-12">
-                        <p>Atuo em Direito Família e Sucessões, com o objetivo de resolver conflitos familiares e sucessórios na via extrajudicial e judicial, através de pedidos de guarda, pensão alimentícia, divórcio, inventário, testamentos, etc.</p>
-                    </div>
-                    <div class="col-md-5 col-12 align-self-center">
-                        <img src="/src/img/familia.png" class="carousel-banner rounded mx-auto d-block" style="height: 300px;">
+                    <div class="md-col-7 col-10 pt-4">
+                        <p>O direito de família e sucessões são ramos do Direito Civil, que tratam das relações familiares, possuindo o objetivo de regular as regras, obrigações, direitos decorrentes do convívio familiar e pendências sucessórias.</p>
+                        <p>Possui como conteúdo os estudos do matrimônio, união estável, divórcio, pensão alimentícia, relações de parentesco, filiação, bens de família, tutela, curatela, guarda, partilha de bens, testamentos e inventários.
+                        </p>
                     </div>
                 </div>
             </div>
