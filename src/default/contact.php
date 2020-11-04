@@ -1,6 +1,10 @@
 <div class="container text-white pb-4" id="contact">
     <div class="row d-flex align-items-center">
 
+        <div class="col-12">
+            <?php include 'src/default/mailContact.php'; ?>
+        </div>
+
         <div class="col-12 col-lg-6">
             <div class="row py-2">
                 <div class="col-fill p-2 mx-1">
