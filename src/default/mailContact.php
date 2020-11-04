@@ -2,12 +2,35 @@
 
 if (!isset($_POST["eMail"])) {
 ?>
-    <form method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-        Seu nome: <input type="text" name="realname" /> <br />
-        Seu e-mail: <input type="text" name="eMail" /> <br />
-        Mensagem: <br /> <textarea name="texto"> </textarea> <br />
-        <input type="submit" value="Enviar" />
-    </form>
+    <div class="row mb-4 justify-content-center">
+        <div class="col-lg-6 col-10">
+            <form method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+                <div class="row justify-content-center">
+
+                    <div class="col-lg-6 col-12 mt-3">
+                        <label>Nome:</label>
+                        <input class="form-control" type="text" name="realname" id="mailname" placeholder="Digite aqui seu nome."/>
+                    </div>
+
+                    <div class="col-lg-6 col-12 mt-3">
+                        <label>E-mail:</label>
+                        <input class="form-control" type="text" name="eMail" id="mailemail" placeholder="Digite aqui seu e-mail."/>
+                    </div>
+
+                    <div class="col-12 mt-3">
+                        <label>Mensagem:</label>
+                        <textarea class="form-control" name="texto" id="mailtext"> </textarea>
+                    </div>
+
+                    <div class="col-12 text-center mt-3">
+                        <button class="btn btn-light text-wine align-self-center" type="submit" value="Enviar" id="mailbtn">ENVIAR MENSAGEM</button>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+    </div>
+
 
 <?php } else {
     function checaDados($vet)

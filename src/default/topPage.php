@@ -20,7 +20,7 @@
                 <img class="mx-auto d-block py-1" src="/src/img/ncl.png">
             </div>
 
-            <div class="col-fill text-center sansita">
+            <div class="col-fill text-center">
                 <h3 class="nopm font-wine">NAIARA CANDIDA DE LIMA</h3>
                 <p  class="nopm font-gold">- A D V O G A D A -</p>
                 <h4 class="nopm font-wine">OAB/SP 428.895</h4>
@@ -48,7 +48,7 @@
         <img src="/src/img/logo.png" class="rounded rounded-circle border border-white d-block d-lg-none" style="height: 50px;">
 
         <div class="col collapse navbar-collapse justify-content-lg-center" id="navbarNav">
-            <ul class="navbar-nav font-weight-bolder sansita text-uppercase">
+            <ul class="navbar-nav font-weight-bolder text-uppercase">
                 <li class="nav-item border-left">
                     <a class="nav-link hover text-white" href="#home">Home
                         <span class="sr-only">(current)</span>

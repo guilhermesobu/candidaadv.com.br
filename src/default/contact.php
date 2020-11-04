@@ -10,9 +10,11 @@
                 <div class="col-fill p-2 mx-1">
                     <img style="height: 55px;" src="/src/img/icons/Phone-Circle.png">
                 </div>
-                <div class="col">
-                    <p class="m-0 p-0">(19) 3626-8981</p>
-                    <p class="m-0 p-0">(19) 99307-2185</p>
+                <div class="col d-flex align-items-center">
+                    <div>
+                        <p class="m-0 p-0">(19) 3626-8981</p>
+                        <p class="m-0 p-0">(19) 99307-2185</p>
+                    </div>
                 </div>
             </div>
 
