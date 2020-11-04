@@ -23,10 +23,10 @@ if (!isset($_POST["eMail"])) {
 
     //Const
     define("TO", "naiara@candidaadv.com.br");
-    define("ASS", "assunto do form");
+    define("ASS", "Contato via página WEB.");
     //if (checaDados($_POST)){ exit(1); }
     // send mail :
-    $_POST['message'] = "Mensagem de " . $_POST['realname'] . " " . $_POST['eMail'];
+    $_POST['message'] = "Mensagem de " . $_POST['realname'] . "znEmail: " . $_POST['eMail'];
     $_POST['message'] .= "\n\n" . $_POST['texto'];
     $_POST['eMail'] = "From: " . $_POST['eMail'];
     if (mail(TO, ASS, $_POST['message'], $_POST['eMail'])) {
