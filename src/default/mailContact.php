@@ -66,7 +66,7 @@ if (!isset($_POST["eMail"])) {
             alert('Seu emaul foi enviado');
         </script>";
 
-        echo '<meta http-equiv="refresh" content="0;url=https://www.candidaadv.com.br/" />';
+        //echo '<meta http-equiv="refresh" content="0;url=https://www.candidaadv.com.br/" />';
         
         //Redirecionamento por JavaScript: 
         //echo " <script> location='http://www.seudominio.com.br/' </script> "; 
