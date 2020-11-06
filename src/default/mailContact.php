@@ -61,11 +61,6 @@ if (!isset($_POST["eMail"])) {
         //Redirecionamento por META tag:
         echo '<meta http-equiv="refresh" content="0;url=https://www.candidaadv.com.br/" />';
         echo "<script>
-            var mailModalJs = document.querySelector('#mailModalBtn');
-
-            function clickModal() {
-                mailModalJs.click();
-            }
             setTimeout(clickModal, 1);
         </script>";
         //Redirecionamento por JavaScript: 
