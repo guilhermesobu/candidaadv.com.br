@@ -60,14 +60,12 @@ if (!isset($_POST["eMail"])) {
         //Para utilizar a funcao header nao pode haver nenhum dado enviado antes do header
         //Redirecionamento por META tag:
         echo "<script>
-        var mailModalJs = document.querySelector('#mailModalBtn');
+            var mailModalJs = document.querySelector('#mailModalBtn');
             setTimeout(()=>{mailModalJs.click();}, 1);
             console.log('Mensagem de sucesso mostrada.');
-            alert('Seu emaul foi enviado');
         </script>";
 
         //echo '<meta http-equiv="refresh" content="0;url=https://www.candidaadv.com.br/" />';
-        
         //Redirecionamento por JavaScript: 
         //echo " <script> location='http://www.seudominio.com.br/' </script> "; 
     } else {
