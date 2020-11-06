@@ -11,3 +11,8 @@ var mailbtn  = document.querySelector('#mailbtn');
     }
 })*/
 
+var mailModalJs = document.querySelector('#mailModalBtn');
+function clickModal(){
+    mailModalJs.click();
+}
+/*setTimeout(clickModal,1);*/

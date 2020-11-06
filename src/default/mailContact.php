@@ -31,8 +31,10 @@ if (!isset($_POST["eMail"])) {
         </div>
     </div>
 
+    
 
-    <?php } else {
+
+<?php } else {
     function checaDados($vet)
     {
         foreach ($vet as $val) {
@@ -46,7 +48,7 @@ if (!isset($_POST["eMail"])) {
 
     //Const
     define("TO", "naiara@candidaadv.com.br");
-    define("ASS", "Contato via página WEB.");
+    define("ASS", "Contato via p&Aacute;gina WEB.");
     //if (checaDados($_POST)){ exit(1); }
     // send mail :
     $_POST['message'] = "Mensagem de " . $_POST['realname'] . "\nEmail: " . $_POST['eMail'];
@@ -57,18 +59,16 @@ if (!isset($_POST["eMail"])) {
         //header("Location: obrigado.html");
         //Para utilizar a funcao header nao pode haver nenhum dado enviado antes do header
         //Redirecionamento por META tag:
-        echo '<meta http-equiv="refresh" content="0;url=https://www.candidaadv.com.br/" />';
+        echo "<script>
+            var mailModalJs = document.querySelector('#mailModalBtn');
 
-    ?>
-        <script>
-            var mailModal = document.getElementById('mailModalBtn');
             function clickModal() {
-                mailModal.click();
+                mailModalJs.click();
             }
             setTimeout(clickModal, 1);
-        </script>
-    <?php
+        </script>";
 
+        echo '<meta http-equiv="refresh" content="0;url=https://www.candidaadv.com.br/" />';
         //Redirecionamento por JavaScript: 
         //echo " <script> location='http://www.seudominio.com.br/' </script> "; 
     } else {

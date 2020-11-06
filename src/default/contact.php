@@ -2,6 +2,29 @@
     <div class="row d-flex align-items-center">
 
         <div class="col-12">
+            <div>
+                <!-- MODAL DE ALERA, EMAIL ENVIADO COM SUCESSO -->
+                <button type="button" class="btn btn-primary d-none" data-toggle="modal" data-target="#mailModal" id="mailModalBtn">
+                    Launch demo modal
+                </button>
+
+                <div class="modal fade" id="mailModal" tabindex="-1" aria-labelledby="mailModal" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content border border-white bg-wine">
+                            <div class="modal-header border-bottom-0">
+                                <h5 class="modal-title text-white" id="mailModalLabel">SUCESSO!</h5>
+                                <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body bg-white rounded">
+                                <p>Seu email foi enviado!</p>
+                                <p>Peço que aguarde, logo mais entrarei em contato.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <?php include 'src/default/mailContact.php'; ?>
         </div>
 
