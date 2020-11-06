@@ -1,6 +1,36 @@
 <div class="row justify-content-center bg-wine pt-4 mx-0" id="ocupationarea">
     <div id="carouselExampleCaptions" class="col-lg-10 col-12 carousel carousel-fade mt-4 py-3" data-ride="carousel" data-interval="false">
 
+        
+
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mailModal" id="mailModalBtn">
+            Launch demo modal
+        </button>
+
+        <div class="modal fade" id="mailModal" tabindex="-1" aria-labelledby="mailModal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content border border-white bg-wine">
+                    <div class="modal-header border-bottom-0">
+                        <h5 class="modal-title text-white" id="mailModalLabel">SUCESSO!</h5>
+                        <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body bg-white rounded">
+                        <p>Seu email foi enviado!</p>
+                        <p>Peço que aguarde, logo mais entrarei em contato.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript">
+            document.getElementById('mailModalBtn').click();
+        </script>
+
+
+
+
         <div class="row text-white">
             <div class="col offset-1">
                 <h2>Área de atuação</h2>

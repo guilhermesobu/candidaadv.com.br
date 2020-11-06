@@ -9,12 +9,12 @@ if (!isset($_POST["eMail"])) {
 
                     <div class="col-lg-6 col-12 mt-3">
                         <label>Nome:</label>
-                        <input class="form-control" type="text" name="realname" id="mailname" placeholder="Digite aqui seu nome."/>
+                        <input class="form-control" type="text" name="realname" id="mailname" placeholder="Digite aqui seu nome." />
                     </div>
 
                     <div class="col-lg-6 col-12 mt-3">
                         <label>E-mail:</label>
-                        <input class="form-control" type="text" name="eMail" id="mailemail" placeholder="Digite aqui seu e-mail."/>
+                        <input class="form-control" type="text" name="eMail" id="mailemail" placeholder="Digite aqui seu e-mail." />
                     </div>
 
                     <div class="col-12 mt-3">
@@ -32,7 +32,7 @@ if (!isset($_POST["eMail"])) {
     </div>
 
 
-<?php } else {
+    <?php } else {
     function checaDados($vet)
     {
         foreach ($vet as $val) {
@@ -57,8 +57,18 @@ if (!isset($_POST["eMail"])) {
         //header("Location: obrigado.html");
         //Para utilizar a funcao header nao pode haver nenhum dado enviado antes do header
         //Redirecionamento por META tag:
-        echo "<script>alert('E-mail enviado com sucesso!');</script>";
         echo '<meta http-equiv="refresh" content="0;url=https://www.candidaadv.com.br/" />';
+
+    ?>
+        <script>
+            var mailModal = document.getElementById('mailModalBtn');
+            function clickModal() {
+                mailModal.click();
+            }
+            setTimeout(clickModal, 1);
+        </script>
+    <?php
+
         //Redirecionamento por JavaScript: 
         //echo " <script> location='http://www.seudominio.com.br/' </script> "; 
     } else {
