@@ -18,8 +18,8 @@
                                 </button>
                             </div>
                             <div class="modal-body bg-white rounded">
-                                <p>Seu email foi enviado!</p>
-                                <p>Peço que aguarde, logo mais entrarei em contato.</p>
+                                <p class="font-wine">Seu email foi enviado!</p>
+                                <p class="font-wine">Peço que aguarde, logo mais entrarei em contato.</p>
                             </div>
                         </div>
                     </div>
