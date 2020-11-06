@@ -3,7 +3,7 @@
 
         
 
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mailModal" id="mailModalBtn">
+        <button type="button" class="btn btn-primary d-none" data-toggle="modal" data-target="#mailModal" id="mailModalBtn">
             Launch demo modal
         </button>
 
