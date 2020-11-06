@@ -35,7 +35,7 @@
                     DIREITO PREVIDENCIÁRIO
                 </a>
 
-                <a href="" id="activeBtn" data-toggle="list" role="tab" data-target="#carouselExampleCaptions" data-slide-to="1" class="border border-white text-center list-group-item list-group-item-action font-small m-1 rounded     ">
+                <a href="" id="activeBtn" data-toggle="list" role="tab" data-target="#carouselExampleCaptions" data-slide-to="1" class="border border-white text-center list-group-item list-group-item-action font-small m-1 rounded       ">
                     FAMÍLIA E SUCESSÕES
                 </a>
 

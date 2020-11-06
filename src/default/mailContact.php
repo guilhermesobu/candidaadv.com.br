@@ -46,7 +46,7 @@ if (!isset($_POST["eMail"])) {
 
     //Const
     define("TO", "naiara@candidaadv.com.br");
-    define("ASS", "Contato via p&Aacute;gina WEB.");
+    define("ASS", "Contato via página WEB.");
     //if (checaDados($_POST)){ exit(1); }
     // send mail :
     $_POST['message'] = "Mensagem de " . $_POST['realname'] . "\nEmail: " . $_POST['eMail'];
@@ -57,6 +57,7 @@ if (!isset($_POST["eMail"])) {
         //header("Location: obrigado.html");
         //Para utilizar a funcao header nao pode haver nenhum dado enviado antes do header
         //Redirecionamento por META tag:
+        echo "<script>alert('E-mail enviado com sucesso!');</script>";
         echo '<meta http-equiv="refresh" content="0;url=https://www.candidaadv.com.br/" />';
         //Redirecionamento por JavaScript: 
         //echo " <script> location='http://www.seudominio.com.br/' </script> "; 

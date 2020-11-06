@@ -11,7 +11,7 @@
 
             <p>Cito como exemplos:</p>
 
-            <ul>
+            <ul class="pr-5">
 
                 <li>O momento anterior ao casamento ou de constituir qualquer união, importante ter uma orientação jurídica acerca do regime de bens a ser escolhido pelo casal, e se será necessário realizar um pacto antenupcial;</li>
 

@@ -5,7 +5,7 @@ var mailbtn  = document.querySelector('#mailbtn');
 
 mailbtn.addEventListener('click', ()=>{
     if(mailname.value != "" && mailemail.value != "" && mailtext != ""){
-
+        
     } else {
         return false;
     }
