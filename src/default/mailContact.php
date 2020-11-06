@@ -60,23 +60,19 @@ if (!isset($_POST["eMail"])) {
         //Para utilizar a funcao header nao pode haver nenhum dado enviado antes do header
         //Redirecionamento por META tag:
         echo "<script>
-        location='https://www.candidaadv.com.br/'
         var mailModalJs = document.querySelector('#mailModalBtn');
             setTimeout(()=>{mailModalJs.click();}, 1);
             console.log('Mensagem de sucesso mostrada.');
+            alert('Seu emaul foi enviado');
         </script>";
 
-        //echo '<meta http-equiv="refresh" content="0;url=https://www.candidaadv.com.br/" />';
+        echo '<meta http-equiv="refresh" content="0;url=https://www.candidaadv.com.br/" />';
+        
         //Redirecionamento por JavaScript: 
         //echo " <script> location='http://www.seudominio.com.br/' </script> "; 
     } else {
         // sending failed, display error message
         echo "<p>Seu e-mail nao p&ocirc;de ser enviado.</p>";
-        echo "<script>
-        var mailModalJs = document.querySelector('#mailModalBtn');
-            setTimeout(()=>{mailModalJs.click();}, 1);
-            console.log('Mensagem de sucesso mostrada.');
-        </script>";
     }
 } //else
 ?>
