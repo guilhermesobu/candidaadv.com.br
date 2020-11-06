@@ -1,8 +1,4 @@
-<?php
-
-if (!isset($_POST["eMail"])) {
-?>
-    <div class="row mb-4 justify-content-center">
+<div class="row mb-4 justify-content-center">
         <div class="col-lg-6 col-10">
             <form method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>">
                 <div class="row justify-content-center">
@@ -31,9 +27,11 @@ if (!isset($_POST["eMail"])) {
         </div>
     </div>
 
+<?php
+
+if (!isset($_POST["eMail"])) {
+?>
     
-
-
 <?php } else {
     function checaDados($vet)
     {
