@@ -2,6 +2,21 @@
 <html>
 
 <head>
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-24FTBQ023N"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-24FTBQ023N');
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
     <meta charset="UTF-8">
     <title>Candida Advocacia</title>
 
@@ -22,7 +37,7 @@
 
             <div class="col-fill text-center">
                 <h3 class="nopm font-wine">NAIARA CANDIDA DE LIMA</h3>
-                <p  class="nopm font-gold">- A D V O G A D A -</p>
+                <p class="nopm font-gold">- A D V O G A D A -</p>
                 <h4 class="nopm font-wine">OAB/SP 428.895</h4>
             </div>
 
