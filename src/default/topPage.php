@@ -16,6 +16,9 @@
     </script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
+    <!-- Métdo de verificação do GOOGLE -->
+    <meta name="google-site-verification" content="QKHWHlc-ZpoJc1mTAPEbfCgsOkR995A7RCKkqRfqb7I" />
+
 
     <meta charset="UTF-8">
     <title>Candida Advocacia</title>
