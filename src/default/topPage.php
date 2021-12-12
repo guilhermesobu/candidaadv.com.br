@@ -69,27 +69,27 @@
         <div class="col collapse navbar-collapse justify-content-lg-center" id="navbarNav">
             <ul class="navbar-nav font-weight-bolder text-uppercase">
                 <li class="nav-item border-left">
-                    <a class="nav-link hover text-white" href="#home">Home
+                    <a class="nav-link hover text-white" href="/">Home
                         <span class="sr-only">(current)</span>
                     </a>
                 </li>
                 <li class="nav-item border-left">
-                    <a class="nav-link hover text-white" href="#ocupationarea">Áreas de Atuação
+                    <a class="nav-link hover text-white" href="/#ocupationarea">Áreas de Atuação
                         <span class="sr-only"></span>
                     </a>
                 </li>
                 <li class="nav-item border-left">
-                    <a class="nav-link hover text-white" href="#accessory">Assessoria e Consultoria Jurídica
+                    <a class="nav-link hover text-white" href="/#accessory">Assessoria e Consultoria Jurídica
                         <span class="sr-only"></span>
                     </a>
                 </li>
                 <li class="nav-item border-left">
-                    <a class="nav-link hover text-white" href="#aboutme">Sobre mim
+                    <a class="nav-link hover text-white" href="/#aboutme">Sobre mim
                         <span class="sr-only"></span>
                     </a>
                 </li>
                 <li class="nav-item border-left">
-                    <a class="nav-link hover text-white" href="#contact">Contato
+                    <a class="nav-link hover text-white" href="/contact.php">Contato
                         <span class="sr-only"></span>
                     </a>
                 </li>

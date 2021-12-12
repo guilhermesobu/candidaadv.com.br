@@ -9,9 +9,7 @@
 
    require 'src/default/occupationArea.php';
    require 'src/default/accessory.php';
-
    require 'src/default/aboutme.php';
-
 
    ?>
 
@@ -23,7 +21,6 @@
 
    require 'src/default/contact.php';
    require 'src/default/socialMedia.php';
-
    require 'copyright.php';
 
    ?>
