@@ -94,6 +94,12 @@
                     </a>
                 </li>
                 <li class="border-left d-lg-block d-none"></li>
+                <li class="nav-item border-left">
+                    <a class="nav-link hover text-white" href="http://blog.candidaadv.com.br/">Blog
+                        <span class="sr-only"></span>
+                    </a>
+                </li>
+                <li class="border-left d-lg-block d-none"></li>
 
             </ul>
         </div>
